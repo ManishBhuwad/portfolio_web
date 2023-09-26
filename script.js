@@ -48,6 +48,7 @@ function checksize(){
         console.log(screenSize +"this is screen")
         normalPage1();
         normalEduPage();
+        cursorMove();
     }
 }
 
@@ -56,7 +57,7 @@ function mobilePage1(){
         scrollTrigger:{
             trigger:".page1",
             scroller:"#main",
-            markers:true,
+            // markers:true,
             scrub: 1,
             start:"top 0%",
             end:"top -20%",
@@ -282,7 +283,7 @@ function iconMove(){
 // page3animation()
 checksize();
 iconMove()
-cursorMove()
+
 // newHeroAnime();
 
 
