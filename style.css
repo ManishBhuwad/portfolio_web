@@ -630,7 +630,10 @@ animation: imageAnimation infinite 5s alternate-reverse;
     z-index: 9;
     padding-top: 50px;
 }
+.curs{
+  display:none;
 
+}
 
     /* page 1 */
         
